@@ -4,11 +4,13 @@ public class TesteInvest {
 
 	public static void main(String[] args) {
 
-		Investimento inv = new Investimento();
+		RendaFixa rd = new RendaFixa();
 		
-		inv.imprimirTesouro();
-		inv.tesouroDireto();
-		
+		rd.investimentos();
+		rd.simuladorRendaFixa();
+		rd.rendaFixa();
+		rd.investimentos();
+
 	}
 
 }
